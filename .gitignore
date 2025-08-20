@@ -1,0 +1,18 @@
+# Entorno virtual
+.venv/
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Archivos temporales de VSCode
+.vscode/
+
+# Archivos de migraciones (opcionales, si no quieres compartirlos)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
